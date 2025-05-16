@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+// CART
+.cart {
+    margin: 3rem auto;
+    max-width: 60rem;
+}
+
+// GENERAL
+.left-gutter {
+    margin-left: 1rem;
+}
+
+// BUTTON
+.button {
+    background-color: #ebebeb;
+    padding: .5rem .75rem;
+    font-weight: 600;
+    font-size: .75rem;
+    border: none;
+    cursor: pointer;
+    max-width: min-content;
+
+    &:hover {
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+.button--remove {
+    align-self: flex-end;
+}
+
+// HEADER
+.header {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: .5rem;
+}
+
+// SUBHEADER
+.subheader {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+.subheader__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+// TOTAL
+.total {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+// PRODUCT LIST
+.product-list {
+    padding: 0;
+    border-bottom: 0.063rem solid #cdcdcd;
+}
+
+@media (min-width: 800px) {
+  .product-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+// PRODUCT LIST ITEM
+.product-list-item {
+    list-style-type: none;
+    border: 0.063rem solid #000;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 800px) {
+    .product-list-item {
+        width: 30%;
+    }
+}
+
+.product-list-item__name{
+    margin: 0;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.product-list-item__price {
+    font-size: .75rem;
+    margin: .5rem 0;
+}
