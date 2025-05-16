@@ -29,12 +29,8 @@ This is my coding challenge solution for a responsive, accessible shopping cart 
    cd react-cart-challenge
 
 ##  📸 Screenshots
-
-**Desktop:**
 ![Screenshot 2025-05-15 203730](https://github.com/user-attachments/assets/85b492d7-c7c6-4864-804c-6a27d5954131)
 ![Screenshot 2025-05-15 204934](https://github.com/user-attachments/assets/ca0eedce-8b62-4292-b2d2-55ee49e0f1e7)
-
-**Mobile:**
 ![Screenshot 2025-05-15 203745](https://github.com/user-attachments/assets/27f70597-e7eb-48cf-9bff-6d0329677371)
 
 ##  📝 Notes
